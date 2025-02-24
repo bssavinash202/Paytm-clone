@@ -317,6 +317,9 @@
     color: white;
     font-size: 20px;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer{
     display: flex;
