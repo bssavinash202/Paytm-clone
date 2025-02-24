@@ -102,7 +102,6 @@
     height:700px;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
     background-color: #002970;
 }
 .content{
@@ -111,6 +110,7 @@
     justify-content: center;
     align-items: center;
     gap: 60px;
+    margin-top: 50px;
 }
 .kyc{
     display: flex;
@@ -159,4 +159,125 @@
 .user>span{
     font-size: 20px;
     font-weight: 500;
+}
+.container-3{
+    background:#00b9f5;
+    display:flex;
+    flex-direction: column;
+}
+.head{
+    margin-top: 120px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-size: 46px;
+    color: white;
+    font-weight: 700;
+}
+.head>span{
+    width: 780px;
+}
+.container-3{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+   
+}
+.container-3-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+.container-3-item{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    color: white;
+}
+.container-3-item>img{
+    height: 120px;
+}
+.container-mid{
+    margin-top: 100px;
+    height: 330px;
+    width: 100%;
+    background-color: #00b9f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.container-mid-item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;    
+}
+.box-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.box-1:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: #2c6380;
+}
+.container-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-color: #f5f7fa;
+
+}
+.box{
+    background-color: white;
+    width: 70%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: 30px;
+}
+.box-left-mid{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.box-left-mid>span{
+    width: 400px;
+}
+.recharge{
+    height: 400px;
+    width: 100%;
+    background-color: #002970;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+}
+.recharge-mid-item{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;  
 }
